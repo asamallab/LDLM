@@ -1,0 +1,6 @@
+QC < CEI/EndodermisPD
+QC < P.ProvascularPD
+QC < C.ProvascularPD
+QC < C.ProvascularTD2
+QC < Columella1
+C.ProvascularPD < C.ProvascularTD2
