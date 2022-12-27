@@ -6,6 +6,7 @@ Common files in all 5 folders:
 Each of the 5 folders corresponds to one Boolean network. Of the 5 Boolean networks, 2 are used for performing the statistical analysis, namely zhou and buylla_RSCN_2010A. Both have similar folder structures and so we provide the contents for buylla_RSCN_2010A network.
 
 ### buylla_RSCN_2010A (model 'A' from Azpeitia et al., 2010)
+The details for the sub folders within this folder are also provided as READMEs in those subfolders only for this model.
 - signs: the regulatory signs of the inputs at each node in the same order as the inedges
 - atleast: folder with data for the ensemble Root<sub>sc-NCF</sub> that recovers *atleast* the given biological fixed points
 - exact: folder with data for the ensemble Root<sub>sc-NCF</sub><sup>*</sup> that recovers *exactly* the given biological fixed points
