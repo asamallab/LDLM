@@ -1,9 +1,9 @@
 Common files in all 5 folders:
-node_num: the number associated with each node in the network
-inedges: a dictionary, where a key is a node and it's value is a list of its inputs
-attractors_<model>: the biological attractors that each of the models recover (only high auxin levels attractors are given for the RSCN models)
+- node_num: the number associated with each node in the network
+- inedges: a dictionary, where a key is a node and it's value is a list of its inputs
+- attractors_\<model_name\>: the biological attractors that each of the models recover (only high auxin levels attractors are given for the RSCN models)
 
-Of the 5 folders here 2 of them are used for performing the statistical analysis of which we provide the folder structure for buylla_RSCN_2010A. The zhou folder has a similar folder structure and hence is not provided in this README. 
+Each of the 5 folders corresponds to one Boolean network. Of the 5 Boolean networks, 2 are used for performing the statistical analysis, namely zhou and buylla_RSCN_2010A. Both have similar folder structures and so we provide the contents for buylla_RSCN_2010A network.
 
 ### buylla_RSCN_2010A (model 'A' from Azpeitia et al., 2010)
 - signs: the regulatory signs of the inputs at each node in the same order as the inedges
@@ -15,11 +15,11 @@ Of the 5 folders here 2 of them are used for performing the statistical analysis
 The 3 other folders are for the 2013 RSCN, 2017 RAM and 2020 RSCN Boolean models. The contents of the buylla_RSCN_2020 folder are provided and is similar to the contents of buylla_RSCN_2013 and buylla_RSCN_2017, hence these 2 are not provided in this README.
 
 ### buylla_RSCN_2020 (RSCN model from Garcia-Gomez et al., 2020)
-- MFPT_hier_buylla_RSCN_2020_10000.pkl: partial hierarchies obtained using MFPT after 10000 iterations
-- MFTP_MST_info_buylla_RSCN_2020_10000.pkl: 
-- MST_hier_buylla_RSCN_2020_10000.pdf: file of the 
+- MFPT_hier_buylla_RSCN_2020_10000.pkl: partial hierarchies obtained using MFPT with 10000 trajectories
+- MFTP_MST_info_buylla_RSCN_2020_10000.pkl: MFTP matrix and the Minimum Spanning Arborescence (as a class file) using 10000 trajectories
+- MST_hier_buylla_RSCN_2020_10000.pdf: image of the Minimum Spanning Arborescence obatained from the MFTP_MST_info_buylla_RSCN_2020_10000.pkl file
 - RSCN2020_best_models.txt: the model obtained by running the ipython notebook provided in the code folder
 - expected_hierarchy_buylla_RSCN_2020.txt: the expected hierarchy of fixed points provided as pairwise inequalities
 - buylla_RSCN_2020.bnet: BoolNet file for the 2020 model
 - gene_BF_dict.pkl: dictionary where a key is a gene and its value is the set of BFs possible at that gene after imposing fixed point constraint and sc-NCF (except ARF5 which allows for sc-RoFs)
-- org_BF_list.pkl: BFlist provided in the original model proposed in Garcia-Gomez et al., 2020
+- org_BF_list.pkl: List of BFs encoded as integers for the original model proposed in Garcia-Gomez et al., 2020
