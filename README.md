@@ -8,7 +8,7 @@ This work leverages the developmental landscape to enable model selection of Boo
 
 The folders in this repository are:
 
-### 1. codes:
+### 1. code:
 Contains all the codes necessary for reproducing the results in this manuscript as a single ipython notebook.
 
 ### 2. data:
