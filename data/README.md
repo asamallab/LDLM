@@ -13,7 +13,7 @@ The details for the sub folders within this folder are also provided as READMEs 
 - edges_buylla_RSCN_2010A.txt: the edges of the network
 - signs: the regulatory signs of the inputs at each node in the same order as the inedges
 
-The 3 other folders are for the 2013 RSCN, 2017 RAM and 2020 RSCN Boolean models. The contents of the buylla_RSCN_2020 folder are provided and is similar to the contents of buylla_RSCN_2013 and buylla_RSCN_2017, hence these 2 are not provided in this README.
+The 3 other folders are for the 2013 RSCN, 2017 RAM and 2020 RSCN Boolean models. All 3 have similar folder structures and so we provide the contents for buylla_RSCN_2020 network.
 
 ### buylla_RSCN_2020 (RSCN model from García-Gómez et al., 2020)
 - MFPT_hier_buylla_RSCN_2020_10000.pkl: partial hierarchies obtained using MFPT with 10000 trajectories
