@@ -31,3 +31,4 @@ Azpeitia, E., Benítez, M., Vega, I., Villarreal, C., & Alvarez-Buylla, E. R. (2
 García-Gómez, M. L., Ornelas-Ayala, D., Garay-Arroyo, A., García-Ponce, B., Sánchez, M. D. L. P., & Álvarez-Buylla, E. R. (2020). A system-level mechanistic explanation for asymmetric stem cell fates: Arabidopsis thaliana root niche as a study system. Scientific reports, 10(1), 1-16.
 
 ### CITATION
+A. Subbaroyan, P. Sil,  O. C. Martin & A. Samal. Leveraging Developmental Landscapes for Model Selection in Boolean Gene Regulatory Networks. bioRxiv. https://doi.org/10.1101/2023.01.08.523151
