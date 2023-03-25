@@ -1,4 +1,4 @@
-Common files in all 5 folders:
+Common files in 5 folders, namely, buylla_RSCN_2010A, buylla_RSCN_2013, buylla_RSCN_2017, buylla_RSCN_2020, zhou
 - node_num: the number associated with each node in the network
 - inedges: a dictionary, where a key is a node and it's value is a list of its inputs
 - attractors_\<model_name\>: the biological attractors that each of the models recover (only high auxin levels attractors are given for the RSCN models); model_name is the folder name
@@ -13,7 +13,7 @@ The details for the sub folders within this folder are also provided as READMEs 
 - edges_buylla_RSCN_2010A.txt: the edges of the network
 - signs: the regulatory signs of the inputs at each node in the same order as the inedges
 
-The 3 other folders are for the 2013 RSCN, 2017 RAM and 2020 RSCN Boolean models. All 3 have similar folder structures and so we provide the contents for buylla_RSCN_2020 network.
+The 3 other folders for the 2013 RSCN, 2017 RAM and 2020 RSCN Boolean models have similar folder structures and so we provide the contents for buylla_RSCN_2020 network.
 
 ### buylla_RSCN_2020 (RSCN model from García-Gómez et al., 2020)
 - MFPT_hier_buylla_RSCN_2020_10000.pkl: partial hierarchies obtained using MFPT with 10000 trajectories
@@ -24,6 +24,11 @@ The 3 other folders are for the 2013 RSCN, 2017 RAM and 2020 RSCN Boolean models
 - buylla_RSCN_2020.bnet: BoolNet file for the 2020 model
 - gene_BF_dict.pkl: dictionary where a key is a gene and its value is the set of BFs possible at that gene after imposing fixed point constraint and sc-NCF (except ARF5 which allows for sc-RoFs)
 - org_BF_list.pkl: List of BFs encoded as integers for the original model proposed in García-Gómez et al., 2020
+
+### computational
+- NCF_perms: each file in this folder contains a list of NCFs for a given number of inputs, the signs of which are activatory 
+- RoF_perms: each file in this folder contains a list of RoFs for a given number of inputs, the signs of which are activatory
+- UF_perms: each file in this folder contains a list of UFs for a given number of inputs, the signs of which are activatory
 
 ### References
 Azpeitia, E., Benítez, M., Vega, I., Villarreal, C., & Alvarez-Buylla, E. R. (2010). Single-cell and coupled GRN models of cell patterning in the Arabidopsis thaliana root stem cell niche. BMC systems biology, 4(1), 1-19. \n
