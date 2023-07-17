@@ -6,4 +6,5 @@
 <img src="schematic_workflow.png">
 
 ## CITATION
-A. Subbaroyan, P. Sil,  O. C. Martin & A. Samal. Leveraging Developmental Landscapes for Model Selection in Boolean Gene Regulatory Networks. bioRxiv. https://doi.org/10.1101/2023.01.08.523151
+A. Subbaroyan, P. Sil, O. C. Martin, and A. Samal. Leveraging developmental landscapes for model selection in Boolean gene regulatory networks. 
+Briefings in Bioinformatics, 24(3):bbad160, 2023
