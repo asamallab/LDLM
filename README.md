@@ -2,8 +2,7 @@
 
 ## About
 This repository contains the codes and data associated with the following manuscript: <br>
-A. Subbaroyan, P. Sil, O. C. Martin, and A. Samal. Leveraging developmental landscapes for model selection in Boolean gene regulatory networks.
-Briefings in Bioinformatics, 24(3):bbad160, 2023 <br>
+A. Subbaroyan, P. Sil, O. C. Martin, and A. Samal. [Leveraging developmental landscapes for model selection in Boolean gene regulatory networks](https://academic.oup.com/bib/article-abstract/24/3/bbad160/7145905?login=true). Briefings in Bioinformatics, 24(3):bbad160, 2023 <br>
 
 This work leverages the developmental landscape to enable model selection of Boolean models of developmental gene regulatory networks (DGRNs). Boolean models with a fixed structure may have a large number of combination of BFs which could recover the biological attractors. Not all of these models are expected to conform to the developmental landscape. We provide in this work how different measures of relative stability can be computed and how the MFPT in particular be used to search for Boolean models that conform to the expected landscape.
 
@@ -20,5 +19,4 @@ Contains all the data necessary for reproducing the results in this manuscript.
 
 
 ## CITATION
-A. Subbaroyan, P. Sil, O. C. Martin, and A. Samal. Leveraging developmental landscapes for model selection in Boolean gene regulatory networks. 
-Briefings in Bioinformatics, 24(3):bbad160, 2023
+A. Subbaroyan, P. Sil, O. C. Martin, and A. Samal. [Leveraging developmental landscapes for model selection in Boolean gene regulatory networks](https://academic.oup.com/bib/article-abstract/24/3/bbad160/7145905?login=true). Briefings in Bioinformatics, 24(3):bbad160, 2023
